@@ -1,9 +1,9 @@
 import numpy as np
 
-coins = [1,2,5,10,20,50,100,200]
+coins = [1, 2, 5, 10, 20, 50, 100, 200]
 total_money = 200
 
-data = np.zeros((len(coins),total_money+1),dtype=np.int32)
+data = np.zeros((len(coins), total_money+1), dtype=np.int32)
 
 for n in range(len(coins)):
     for m in range(total_money+1):
